@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>kellershoff.net</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <style type="text/css">
+    html, body, #poster {
+      background-color: #000;
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+    #poster {
+      opacity: 0;
+      transition: opacity 0.5s ease-in;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="poster"></div>
+    <script src="app.js"></script>
+    <noscript>
+      <style>
+      #poster {
+        opacity: 1;
+        background-image: url(https://mwcdn.co/www.kellershoff.net/poster.jpg);
+      }
+      </style>
+    </noscript>
+  </body>
+</html>
